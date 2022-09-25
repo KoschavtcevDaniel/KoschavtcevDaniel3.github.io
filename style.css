@@ -121,6 +121,7 @@
 @media screen and (max-device-width: 480px) {
   .body{
     margin: 0;
+    width: 100%;
   }
   .nav{
     margin: 0;
@@ -131,6 +132,9 @@
     margin-top: 10%;
     padding: 5%;
     margin: 0;
+  }
+  .href_list{
+    font-size: xx-large;
   }
   .table{
     margin-top: 10%;
