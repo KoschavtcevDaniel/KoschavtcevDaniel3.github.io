@@ -1,5 +1,6 @@
 
 .body{
+  display: flex;
   margin: 0;
   width: 100%;
   color: #FF4100;
