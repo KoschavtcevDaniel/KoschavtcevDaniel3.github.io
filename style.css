@@ -117,8 +117,9 @@
 }
 
 @media screen and (max-device-width: 480px) {
-  .header{
+  .body{
     margin: 0;
+    font-size: 150%;
   }
   .nav{
     margin: 0;
@@ -130,10 +131,12 @@
   }
   .table{
     margin: 0;
+    flex: 3;
     order: 2;
   }
   .form{
     margin: 0;
+    flex: 1;
     order: 1;
   }
   .footer{
