@@ -1,7 +1,8 @@
 
 .body{
   margin: 0;
-   color: #FF4100;
+  width: 100%;
+  color: #FF4100;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: xx-large;
   font-style: italic;
