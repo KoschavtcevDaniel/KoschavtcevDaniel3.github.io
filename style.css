@@ -140,6 +140,7 @@
   .main{
     display: flex;
     flex-direction: column;
+    width: 100vw;
   }
   .header{
     margin: 0;
