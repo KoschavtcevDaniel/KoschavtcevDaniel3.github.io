@@ -1,16 +1,33 @@
- .main{
+ #main{
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width:120vw;
  }
 
 .body{
   height:100%;
   margin:0;
-   color: #FF4100;
+  width: 100%;
+  color: #FF4100;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: xx-large;
   font-style: italic;
   background-color: #FFCE73;
+}
+#hrefs{
+  order: 1;
+  font-size: xx-large;
+  justify-content: center;
+}
+#table{
+  order: 3;
+  justify-content: center;
+}
+#form{
+  order: 2;
+  justify-content: center;
 }
 .header_back{
   display: block;
@@ -31,6 +48,7 @@
   align-items: center;
   background-color:#000000; 
   padding: 5px; 
+  margin: 1.5%;
   height:50px;
 }
 .h{
@@ -45,14 +63,9 @@
   height:100px;
   
 }
-.main-aside-wrapper ol{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  order: 0;
-}
 
 .href_list{
+  font-size: xx-large;
   color: #FF4100;
   transition: color .2s linear;
 
@@ -61,23 +74,19 @@
   color: black;
   text-decoration: none;
 }
-.main ol{
-  order: 0;
-}
 
 .nav{
   display: flex;
   justify-content: center;
+  flex-direction: column;
   height:100%;
   width: 100%;
   text-align: center;
   background-color:#000000; 
-  margin: 0 auto; 
-  margin-top:20px; 
-
+  order: 0;
   color:  #FF5900;
   text-decoration: none;
-  
+  margin-bottom: 1.5%;
 }
 .href{
   text-decoration: none;
@@ -86,7 +95,7 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 30px;
   font-size: 110%;
-  position: relative;
+
   
   color:  #FF5900;
   text-decoration: none;
@@ -97,11 +106,10 @@
   color:#FFEB00;
 }
 
- .main table{
+ .table{
   display: inline-block;
-  order: 1;
   text-align: auto;
-
+  margin: 1.5%;
   color:#FF6400;
   margin: auto;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -117,25 +125,18 @@
   border: solid #000000;
   background-color: #238D43;
 }
- .main form{
-  display: block;
-  order: 2;
-  flex-direction: column;
-  align-content: center;
-  text-align: center;
-}
+
 .footer{
-  display: flex;
   margin-top: 20px auto;
-  display: block;
   margin: 0;
   background-color: #000;
   padding: 40px;
+  margin: 1.5%;
   width:100%;
-  
+  order: 4;
 }
 
-@media screen and (max-device-width: 480px) {
+@media screen and (min-device-width: 800px) {
   .main{
     display: flex;
     flex-direction: column;
@@ -144,23 +145,30 @@
     margin: 0;
   }
   .nav{
-    margin: 0;
-   
-  }
-  .main ol{
-    margin: 0;
+    margin: 1.5%;
     order: 0;
+    flex-direction: row;
   }
-  .main table{
+  #hrefs{
+    margin: 0;
+    width: 100%;
+    order: 1;
+    justify-content: center;
+  }
+  #table{
     margin: 0;
     order: 2;
+    justify-content: center;
   }
-  .main form{
+  #form{
     margin: 0;
-    order: 1;
-    
+    width:100%;
+    order: 3;
+    justify-content: center;
   }
   .footer{
     margin: 0;
+    width: 100%;
+    order:4;
   }
 }
