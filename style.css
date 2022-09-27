@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+  background-color: #63DB93;
  }
 
 .body{
@@ -45,9 +46,7 @@
 .header{
   display: flex;
   align-items: center;
-  background-color:#000000; 
-  padding: 5px; 
-  margin: 1.5%;
+  background-color:#000000;
   height:50px;
 }
 .h{
@@ -60,7 +59,7 @@
   float: left; 
   width:100px; 
   height:100px;
-  
+  padding: 5px;
 }
 
 .href_list{
@@ -144,7 +143,7 @@
     margin: 0;
   }
   .nav{
-    margin: 1.5%;
+    margin-top: 1.5%;
     order: 0;
     flex-direction: row;
   }
