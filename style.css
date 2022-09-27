@@ -136,7 +136,6 @@
   .main{
     display: flex;
     flex-direction: column;
-    width: 100vw;
   }
   .header{
     margin: 0;
@@ -148,9 +147,8 @@
   }
   #hrefs{
     margin: 0;
-    width: 100%;
+    width: 70%;
     order: 1;
-    justify-content: center;
   }
   #table{
     margin: 0;
