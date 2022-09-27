@@ -1,9 +1,7 @@
- #main{
+#main{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
-  background-color: #63DB93;
+ background-color: #63DB93;
  }
 
 .body{
@@ -11,22 +9,28 @@
   width: 100%;
   color: #FF4100;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: xx-large;
+  font-size: x-large;
   font-style: italic;
   background-color: #FFCE73;
 
 }
 #hrefs{
+  width: 100%;
+  background-color: #FFCE73;
   order: 1;
-  font-size: xx-large;
 }
 #table{
-  order: 3;
+  width: 100%;
+  background-color: #FFCE73;
   justify-content: center;
+  order: 3;
 }
 #form{
+  width: 100%;
+  background-color: #FFCE73;
   order: 2;
   justify-content: center;
+  justify-content: space-around;
 }
 .header_back{
   display: block;
@@ -36,11 +40,9 @@
 }
 .h1{
   text-align: center;
-  font-size: xx-large;
 }
 .h2{
   text-align: center;
-  font-size: xx-large;
 }
 .header{
   display: flex;
@@ -49,8 +51,10 @@
   height:50px;
 }
 .h{
-  display: flex;
+  font-size: xx-large;
+  display: block;
   width:100%;
+  margin-top: 6%;
   float: right;
 }
 .imagine{
@@ -58,11 +62,9 @@
   float: left; 
   width:100px; 
   height:100px;
-  margin-top: 1.5%;
+  margin-top: 6%;
 }
-
 .href_list{
-  font-size: xx-large;
   color: #FF4100;
   transition: color .2s linear;
 
@@ -73,6 +75,7 @@
 }
 
 .nav{
+  font-size: xx-large;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -102,13 +105,10 @@
 .href:hover{
   color:#FFEB00;
 }
-
  .table{
   display: inline-block;
   text-align: auto;
-  margin: 1.5%;
   color:#FF6400;
-  margin: auto;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 80%;
   border: 2% solid #000000;
@@ -124,11 +124,12 @@
 }
 
 .footer{
-  margin-top: 20px auto;
+  font-size: xx-large;
   margin: 0;
+  height: 50px;
   background-color: #000;
-  margin: 1.5%;
-  width:100%;
+  margin-top: 1.5%;
+  width: 100%;
   order: 4;
 }
 
@@ -136,6 +137,7 @@
   .main{
     display: flex;
     flex-direction: column;
+
   }
   .header{
     margin: 0;
@@ -148,22 +150,33 @@
   #hrefs{
     margin: 0;
     width: 70%;
+    background-color: #FFCE73;
     order: 1;
   }
   #table{
     margin: 0;
     order: 2;
+    width: 70%;
+    background-color: #FFCE73;
     justify-content: center;
   }
   #form{
     margin: 0;
-    width:100%;
+    width: 70%;
     order: 3;
+    background-color: #FFCE73;
     justify-content: center;
+  }
+  .h{
+    margin-top: 6%;
+  }
+  .imagine{
+    margin-top: 6%;
   }
   .footer{
     margin: 0;
     width: 100%;
     order:4;
+    margin-top: 1.5%;
   }
 }
