@@ -51,7 +51,7 @@
 }
 .h{
   display: flex;
-
+  width:100%;
   float: right;
 }
 .imagine{
@@ -59,7 +59,7 @@
   float: left; 
   width:100px; 
   height:100px;
-  padding: 10px;
+  margin-top: 1.5%;
 }
 
 .href_list{
