@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+  max-width: 960px;
  }
 
 .body{
@@ -13,6 +14,7 @@
   font-size: xx-large;
   font-style: italic;
   background-color: #FFCE73;
+ max-width: 960px;
 }
 #hrefs{
   order: 1;
